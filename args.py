@@ -1,7 +1,7 @@
 import argparse
 
 def load_args():
-    parser = argparse.ArgumentParser('TPPCDF')
+    parser = argparse.ArgumentParser('NPP')
 
     parser.add_argument('--data', type=str,default="hawkes_ind", help='use which dataset')
     parser.add_argument('--bs', type=int,default=64)
@@ -26,9 +26,9 @@ def load_args():
     args = parser.parse_args()
 
     if args.local:
-        args.pro_path="D:\lbq\lang\pythoncode\pycharm project\TPPBASE\TPPSUM"
+        args.pro_path="D:\data\NPP"#(windows)
     else:
-        args.pro_path="/data/liubingqing/debug/TPPBASE/TPPSUM"
+        args.pro_path="/data/NPP"#Needs to be modified (linux)
 
     return args
 
