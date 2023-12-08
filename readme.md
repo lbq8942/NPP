@@ -1,4 +1,4 @@
-The source code of paper "Modeling Neural Point Process by Attention Mechanism and Intensity-free Distribution".
+The source code of paper "DeEr: A Dependency Learning Framework For Event Sequence Modelling".
 
 
 ### 1.Dataset
